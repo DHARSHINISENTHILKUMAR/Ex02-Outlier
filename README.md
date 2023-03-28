@@ -36,8 +36,8 @@ You are given bhp.csv which contains property prices in the city of banglore, In
 
 ### Program:
 ### 1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe.
-## Program executed by:Dharshini s
-##Register number:212221220009
+### Program executed by:Dharshini S
+### Register number:212221220009
 ~~~
  import pandas as pd
 import numpy as np
@@ -113,6 +113,7 @@ df4
 df4.shape
 
 sns.boxplot(x="weight",data=df4)
+~~~
 ### (4)(ii) For the data set height_weight.csv detect height outliers using IQR method.
 ~~~
 sns.boxplot(x="height",data=df3)
